@@ -1,4 +1,4 @@
-![Project GIF](./file-show.gif~)
+![Project GIF](./file-show.gif)
 
 **Aurora Crystals Shop**
 
