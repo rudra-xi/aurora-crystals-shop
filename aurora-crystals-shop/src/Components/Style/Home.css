@@ -1,0 +1,87 @@
+/*?=== {*, body, @font-face, :root} are in index.css ===*/
+
+/*? ===== HERO =====*/
+h1 {
+	font-size: 17rem;
+	line-height: 0.9;
+	font-family: w01;
+}
+span {
+	font-family: w01;
+	font-size: 2rem;
+	display: block;
+	line-height: 1.3;
+	padding-bottom: 30px;
+}
+p {
+	font-family: gyreCN, sans-serif;
+	font-size: 0.8rem;
+	line-height: 1.3;
+	letter-spacing: 0.3px;
+}
+.hero {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0 4rem;
+	pointer-events: none;
+}
+.hero-wrapper {
+	text-align: center;
+}
+.hero-heading {
+	display: inline-flex;
+	align-items: flex-end;
+	margin-bottom: 2rem;
+	gap: 30px;
+}
+
+/*? ===== EXTRA =====*/
+
+.extra {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-top: 0.5rem;
+	padding: 0 4rem;
+	overflow: hidden;
+	pointer-events: none;
+}
+.extra-heading {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+	overflow: hidden;
+}
+
+/*? === IMAGE GRID PLACEMENT ===*/
+.extra-gallery {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	gap: 0.7rem;
+
+	grid-template-areas: "first . . fourth . . seventh eighth"; /*? === IMAGE PLACEMENT ===*/
+}
+
+/*? === IMAGE PLACEMENT ===*/
+.extra-gallery-items:nth-child(1) {
+	grid-area: first;
+}
+.extra-gallery-items:nth-child(2) {
+	grid-area: fourth;
+}
+.extra-gallery-items:nth-child(3) {
+	grid-area: seventh;
+}
+.extra-gallery-items:nth-child(4) {
+	grid-area: eighth;
+}
+
+/*? === IMAGE SIZING ===*/
+.extra-gallery-items-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+}

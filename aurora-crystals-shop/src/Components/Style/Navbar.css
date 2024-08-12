@@ -1,0 +1,27 @@
+/*? ===== BASIC ADJUSTMENT FOR THE LOGO AND THE NAV POSITION AND STYLING =====*/
+#logo {
+	padding-left: 5rem;
+	font-family: w01;
+	letter-spacing: 0.25rem;
+	font-size: 1.2rem;
+	color: var(--textColor);
+     pointer-events: none;
+}
+
+#marginRight {
+	margin-right: 5rem;
+}
+
+a {
+	font-family: gyreCN;
+	letter-spacing: 1.5px;
+}
+
+.nav-link {
+	color: var(--linkColor);
+	font-size: 0.9rem;
+}
+
+.nav-link:hover {
+     text-decoration: underline var(--hoverColor) 1.5px ;
+}
