@@ -1,3 +1,5 @@
+![Project GIF](./file-show.gif~)
+
 **Aurora Crystals Shop**
 
 This is a React project showcasing GSAP animations for a website landing page.
