@@ -53,3 +53,8 @@ Goutam Prasad
 
 -    You can customize the animations and content in the respective component files (e.g., MainGsapAnimation.jsx, Home.jsx, HomeExtraElements.jsx).
 -    Feel free to add more features and functionalities to this project.
+
+**License**
+
+-    This project is licensed under the MIT License - see the LICENSE file for details.
+[![MIT license](.file/LIICENE)](LICENSE)
