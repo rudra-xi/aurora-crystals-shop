@@ -46,8 +46,7 @@ README.md
 
 **Author:**
 
-Goutam Prasad
-@goutam-prasad-27
+***[Rudra-xi](https://github.com/rudra-xi)***
 
 **Additional Notes:**
 
